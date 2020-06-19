@@ -18,7 +18,18 @@ myFunction();
 
 // Explanation: 
 
+// nestedFunction is able to reach up to the internal variable because it is still within the lexical environment it has acces to. Functions are able to look for variables by looking to a higher scope, but not a lower scope.
 
 /* Task 2: Counter */
 
 /* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+
+let summation = (num) => {
+  let count = num;
+   for (let i = 0; i < num; i++) {
+      count += i;
+   }
+   return count;
+}
+
+console.log(summation(4));
