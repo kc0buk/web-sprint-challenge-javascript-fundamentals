@@ -18,7 +18,7 @@ myFunction();
 
 // Explanation: 
 
-// nestedFunction is able to reach up to the internal variable because it is still within the lexical environment it has acces to. Functions are able to look for variables by looking to a higher scope, but not a lower scope.
+// nestedFunction is able to reach up to the internal variable because it is still within the lexical environment it has access to. Functions are able to look for variables by looking to a higher scope, but not a lower scope.
 
 /* Task 2: Counter */
 
